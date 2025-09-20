@@ -34,8 +34,8 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define MAX_SPEED   700
-const uint16_t WHITE[8] = {2640, 2377, 2450, 2853, 2621, 2694, 2434, 2044};
-const uint16_t BLACK[8] = {3889, 3931, 3907, 3918, 3928, 3936, 3932, 3939};
+const uint16_t WHITE[8] = {3057, 2769, 2764, 3069, 2887, 3000, 2950, 3020};
+const uint16_t BLACK[8] = {3888, 3913, 3892, 3904, 3907, 3913, 3916, 3920};
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -88,6 +88,7 @@ void PID_Linefollow(int32_t error);
 uint32_t Read_Line(void);
 void Robot_Control(void);
 uint16_t Normalize_Sensors(uint16_t raw, uint8_t i);
+uint8_t Get_Line(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -152,6 +153,11 @@ int main(void)
       adc_done_flag = false;
       Robot_Control();
       HAL_ADC_Start_DMA(&hadc1, adc_buffer, 9);
+      if(Get_Line() == 0 || Get_Line() == 255){
+        HAL_GPIO_WritePin(LED_ACT_GPIO_Port, LED_ACT_Pin, GPIO_PIN_SET);
+      }else{
+        HAL_GPIO_WritePin(LED_ACT_GPIO_Port, LED_ACT_Pin, GPIO_PIN_RESET);
+      }
     }
     /* USER CODE END WHILE */
 
@@ -563,8 +569,8 @@ void Robot_Control(void){
 
   position = Read_Line();
   error = 3500 - position;
-  while(adc_buffer[1]>BLACK[0]*0.85&&adc_buffer[2]>BLACK[1]*0.85&&adc_buffer[3]>BLACK[2]*0.85&&adc_buffer[4]>BLACK[3]*0.85&&adc_buffer[5]>BLACK[4]*0.85&&adc_buffer[6]>BLACK[5]*0.85&&adc_buffer[7]>BLACK[6]*0.85&&adc_buffer[8]>BLACK[7]*0.85){
-    if(previousError>0){      
+  while(Get_Line() == 0){
+    if(previousError<0){      
       M_SetSpeed(0.7*MAX_SPEED, 0.7*MAX_SPEED, BACKWARD, FORWARD);
     }
     else{
@@ -578,6 +584,16 @@ void Robot_Control(void){
   }
 
   PID_Linefollow(error);
+}
+
+uint8_t Get_Line(void){
+  uint8_t out = 0;
+  for (uint8_t i = 0; i < 8; i++){
+    if(adc_buffer[i+1] > (BLACK[i] - (BLACK[i]-WHITE[i])*0.5)){
+      out = out | (1 << i);
+    }
+  }
+  return out;
 }
 
 uint32_t Read_Line(void){
