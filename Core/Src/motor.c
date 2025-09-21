@@ -30,10 +30,10 @@ void M_Enable(void){
 }
 
 void M_SetSpeed(uint16_t spd_a, uint16_t spd_b, bool dir_a, bool dir_b){
-    TIM1->CCR1 = spd_a;
-    TIM1->CCR2 = spd_a;
-    TIM2->CCR1 = spd_b;
-    TIM2->CCR2 = spd_b;
+    TIM1->CCR1 = 799-spd_a;
+    TIM1->CCR2 = 799-spd_a;
+    TIM2->CCR1 = 799-spd_b;
+    TIM2->CCR2 = 799-spd_b;
 
     if(dir_a == BACKWARD){
         TIM1->CCR1 = 799;
@@ -45,5 +45,16 @@ void M_SetSpeed(uint16_t spd_a, uint16_t spd_b, bool dir_a, bool dir_b){
         TIM2->CCR1 = 799;
     }else{
         TIM2->CCR2 = 799;
+    }
+
+    
+    if(spd_a == 0){
+        TIM1->CCR1 = 0;
+        TIM1->CCR2 = 0;
+    }
+
+    if(spd_b == 0){
+        TIM2->CCR1 = 0;
+        TIM2->CCR2 = 0;
     }
 }

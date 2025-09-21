@@ -143,6 +143,7 @@ int main(void)
   // M_Disable();
   // Enter_Sleep();
   while(!HAL_GPIO_ReadPin(BTT_ON_GPIO_Port, BTT_ON_Pin));
+  HAL_Delay(1000);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -159,6 +160,40 @@ int main(void)
         HAL_GPIO_WritePin(LED_ACT_GPIO_Port, LED_ACT_Pin, GPIO_PIN_RESET);
       }
     }
+
+    if(HAL_GPIO_ReadPin(BTT_ON_GPIO_Port, BTT_ON_Pin)){
+      M_Disable();
+      HAL_GPIO_WritePin(LED_ON_GPIO_Port, LED_ON_Pin, GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(IR_EN_GPIO_Port, IR_EN_Pin, GPIO_PIN_RESET);
+      break;
+    }
+
+  //   for(;;){
+  //   for (uint16_t i = 0; i < 800; i++){
+  //     M_SetSpeed(i, i, FORWARD, FORWARD);
+  //     HAL_GPIO_TogglePin(LED_ACT_GPIO_Port, LED_ACT_Pin);
+  //     HAL_Delay(10);
+  //   }
+  //   HAL_Delay(1000);
+  //   for (uint16_t i = 799; i > 0; i--){
+  //     M_SetSpeed(i, i, FORWARD, FORWARD);
+  //     HAL_GPIO_TogglePin(LED_ACT_GPIO_Port, LED_ACT_Pin);
+  //     HAL_Delay(10);
+  //   }
+
+  //   for (uint16_t i = 0; i < 800; i++){
+  //     M_SetSpeed(i, i, BACKWARD, BACKWARD);
+  //     HAL_GPIO_TogglePin(LED_ACT_GPIO_Port, LED_ACT_Pin);
+  //     HAL_Delay(10);
+  //   }
+  //   HAL_Delay(1000);
+  //   for (uint16_t i = 799; i > 0; i--){
+  //     M_SetSpeed(i, i, BACKWARD, BACKWARD);
+  //     HAL_GPIO_TogglePin(LED_ACT_GPIO_Port, LED_ACT_Pin);
+  //     HAL_Delay(10);
+  //   }
+  //   HAL_Delay(1000);
+  // }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
