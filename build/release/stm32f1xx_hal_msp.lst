@@ -1,0 +1,418 @@
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.arch armv7-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"stm32f1xx_hal_msp.c"
+  14              		.text
+  15              		.section	.text.HAL_MspInit,"ax",%progbits
+  16              		.align	1
+  17              		.global	HAL_MspInit
+  18              		.syntax unified
+  19              		.thumb
+  20              		.thumb_func
+  22              	HAL_MspInit:
+  23              		@ args = 0, pretend = 0, frame = 8
+  24              		@ frame_needed = 0, uses_anonymous_args = 0
+  25              		@ link register save eliminated.
+  26 0000 82B0     		sub	sp, sp, #8
+  27 0002 0E4B     		ldr	r3, .L3
+  28 0004 9A69     		ldr	r2, [r3, #24]
+  29 0006 42F00102 		orr	r2, r2, #1
+  30 000a 9A61     		str	r2, [r3, #24]
+  31 000c 9A69     		ldr	r2, [r3, #24]
+  32 000e 02F00102 		and	r2, r2, #1
+  33 0012 0092     		str	r2, [sp]
+  34 0014 009A     		ldr	r2, [sp]
+  35 0016 DA69     		ldr	r2, [r3, #28]
+  36 0018 42F08052 		orr	r2, r2, #268435456
+  37 001c DA61     		str	r2, [r3, #28]
+  38 001e DB69     		ldr	r3, [r3, #28]
+  39 0020 03F08053 		and	r3, r3, #268435456
+  40 0024 0193     		str	r3, [sp, #4]
+  41 0026 019B     		ldr	r3, [sp, #4]
+  42 0028 054A     		ldr	r2, .L3+4
+  43 002a 5368     		ldr	r3, [r2, #4]
+  44 002c 23F0E063 		bic	r3, r3, #117440512
+  45 0030 43F00073 		orr	r3, r3, #33554432
+  46 0034 5360     		str	r3, [r2, #4]
+  47 0036 02B0     		add	sp, sp, #8
+  48              		@ sp needed
+  49 0038 7047     		bx	lr
+  50              	.L4:
+  51 003a 00BF     		.align	2
+  52              	.L3:
+  53 003c 00100240 		.word	1073876992
+  54 0040 00000140 		.word	1073807360
+  56              		.section	.text.HAL_ADC_MspInit,"ax",%progbits
+  57              		.align	1
+  58              		.global	HAL_ADC_MspInit
+  59              		.syntax unified
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s 			page 2
+
+
+  60              		.thumb
+  61              		.thumb_func
+  63              	HAL_ADC_MspInit:
+  64              		@ args = 0, pretend = 0, frame = 32
+  65              		@ frame_needed = 0, uses_anonymous_args = 0
+  66 0000 30B5     		push	{r4, r5, lr}
+  67 0002 89B0     		sub	sp, sp, #36
+  68 0004 0023     		movs	r3, #0
+  69 0006 0493     		str	r3, [sp, #16]
+  70 0008 0593     		str	r3, [sp, #20]
+  71 000a 0693     		str	r3, [sp, #24]
+  72 000c 0793     		str	r3, [sp, #28]
+  73 000e 0268     		ldr	r2, [r0]
+  74 0010 294B     		ldr	r3, .L11
+  75 0012 9A42     		cmp	r2, r3
+  76 0014 01D0     		beq	.L9
+  77              	.L5:
+  78 0016 09B0     		add	sp, sp, #36
+  79              		@ sp needed
+  80 0018 30BD     		pop	{r4, r5, pc}
+  81              	.L9:
+  82 001a 0446     		mov	r4, r0
+  83 001c 03F56C43 		add	r3, r3, #60416
+  84 0020 9A69     		ldr	r2, [r3, #24]
+  85 0022 42F40072 		orr	r2, r2, #512
+  86 0026 9A61     		str	r2, [r3, #24]
+  87 0028 9A69     		ldr	r2, [r3, #24]
+  88 002a 02F40072 		and	r2, r2, #512
+  89 002e 0192     		str	r2, [sp, #4]
+  90 0030 019A     		ldr	r2, [sp, #4]
+  91 0032 9A69     		ldr	r2, [r3, #24]
+  92 0034 42F00402 		orr	r2, r2, #4
+  93 0038 9A61     		str	r2, [r3, #24]
+  94 003a 9A69     		ldr	r2, [r3, #24]
+  95 003c 02F00402 		and	r2, r2, #4
+  96 0040 0292     		str	r2, [sp, #8]
+  97 0042 029A     		ldr	r2, [sp, #8]
+  98 0044 9A69     		ldr	r2, [r3, #24]
+  99 0046 42F00802 		orr	r2, r2, #8
+ 100 004a 9A61     		str	r2, [r3, #24]
+ 101 004c 9B69     		ldr	r3, [r3, #24]
+ 102 004e 03F00803 		and	r3, r3, #8
+ 103 0052 0393     		str	r3, [sp, #12]
+ 104 0054 039B     		ldr	r3, [sp, #12]
+ 105 0056 FE23     		movs	r3, #254
+ 106 0058 0493     		str	r3, [sp, #16]
+ 107 005a 0325     		movs	r5, #3
+ 108 005c 0595     		str	r5, [sp, #20]
+ 109 005e 04A9     		add	r1, sp, #16
+ 110 0060 1648     		ldr	r0, .L11+4
+ 111 0062 FFF7FEFF 		bl	HAL_GPIO_Init
+ 112 0066 0495     		str	r5, [sp, #16]
+ 113 0068 0595     		str	r5, [sp, #20]
+ 114 006a 04A9     		add	r1, sp, #16
+ 115 006c 1448     		ldr	r0, .L11+8
+ 116 006e FFF7FEFF 		bl	HAL_GPIO_Init
+ 117 0072 1448     		ldr	r0, .L11+12
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s 			page 3
+
+
+ 118 0074 144B     		ldr	r3, .L11+16
+ 119 0076 0360     		str	r3, [r0]
+ 120 0078 0023     		movs	r3, #0
+ 121 007a 4360     		str	r3, [r0, #4]
+ 122 007c 8360     		str	r3, [r0, #8]
+ 123 007e 8022     		movs	r2, #128
+ 124 0080 C260     		str	r2, [r0, #12]
+ 125 0082 4FF40072 		mov	r2, #512
+ 126 0086 0261     		str	r2, [r0, #16]
+ 127 0088 4FF40062 		mov	r2, #2048
+ 128 008c 4261     		str	r2, [r0, #20]
+ 129 008e 2022     		movs	r2, #32
+ 130 0090 8261     		str	r2, [r0, #24]
+ 131 0092 C361     		str	r3, [r0, #28]
+ 132 0094 FFF7FEFF 		bl	HAL_DMA_Init
+ 133 0098 58B9     		cbnz	r0, .L10
+ 134              	.L7:
+ 135 009a 0A4B     		ldr	r3, .L11+12
+ 136 009c 2362     		str	r3, [r4, #32]
+ 137 009e 5C62     		str	r4, [r3, #36]
+ 138 00a0 0022     		movs	r2, #0
+ 139 00a2 1146     		mov	r1, r2
+ 140 00a4 1220     		movs	r0, #18
+ 141 00a6 FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ 142 00aa 1220     		movs	r0, #18
+ 143 00ac FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 144 00b0 B1E7     		b	.L5
+ 145              	.L10:
+ 146 00b2 FFF7FEFF 		bl	Error_Handler
+ 147 00b6 F0E7     		b	.L7
+ 148              	.L12:
+ 149              		.align	2
+ 150              	.L11:
+ 151 00b8 00240140 		.word	1073816576
+ 152 00bc 00080140 		.word	1073809408
+ 153 00c0 000C0140 		.word	1073810432
+ 154 00c4 00000000 		.word	hdma_adc1
+ 155 00c8 08000240 		.word	1073872904
+ 157              		.section	.text.HAL_ADC_MspDeInit,"ax",%progbits
+ 158              		.align	1
+ 159              		.global	HAL_ADC_MspDeInit
+ 160              		.syntax unified
+ 161              		.thumb
+ 162              		.thumb_func
+ 164              	HAL_ADC_MspDeInit:
+ 165              		@ args = 0, pretend = 0, frame = 0
+ 166              		@ frame_needed = 0, uses_anonymous_args = 0
+ 167 0000 0268     		ldr	r2, [r0]
+ 168 0002 0D4B     		ldr	r3, .L20
+ 169 0004 9A42     		cmp	r2, r3
+ 170 0006 00D0     		beq	.L19
+ 171 0008 7047     		bx	lr
+ 172              	.L19:
+ 173 000a 10B5     		push	{r4, lr}
+ 174 000c 0446     		mov	r4, r0
+ 175 000e 0B4A     		ldr	r2, .L20+4
+ 176 0010 9369     		ldr	r3, [r2, #24]
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s 			page 4
+
+
+ 177 0012 23F40073 		bic	r3, r3, #512
+ 178 0016 9361     		str	r3, [r2, #24]
+ 179 0018 FE21     		movs	r1, #254
+ 180 001a 0948     		ldr	r0, .L20+8
+ 181 001c FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 182 0020 0321     		movs	r1, #3
+ 183 0022 0848     		ldr	r0, .L20+12
+ 184 0024 FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 185 0028 206A     		ldr	r0, [r4, #32]
+ 186 002a FFF7FEFF 		bl	HAL_DMA_DeInit
+ 187 002e 1220     		movs	r0, #18
+ 188 0030 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
+ 189 0034 10BD     		pop	{r4, pc}
+ 190              	.L21:
+ 191 0036 00BF     		.align	2
+ 192              	.L20:
+ 193 0038 00240140 		.word	1073816576
+ 194 003c 00100240 		.word	1073876992
+ 195 0040 00080140 		.word	1073809408
+ 196 0044 000C0140 		.word	1073810432
+ 198              		.section	.text.HAL_TIM_Base_MspInit,"ax",%progbits
+ 199              		.align	1
+ 200              		.global	HAL_TIM_Base_MspInit
+ 201              		.syntax unified
+ 202              		.thumb
+ 203              		.thumb_func
+ 205              	HAL_TIM_Base_MspInit:
+ 206              		@ args = 0, pretend = 0, frame = 8
+ 207              		@ frame_needed = 0, uses_anonymous_args = 0
+ 208              		@ link register save eliminated.
+ 209 0000 82B0     		sub	sp, sp, #8
+ 210 0002 0368     		ldr	r3, [r0]
+ 211 0004 0F4A     		ldr	r2, .L28
+ 212 0006 9342     		cmp	r3, r2
+ 213 0008 04D0     		beq	.L26
+ 214 000a B3F1804F 		cmp	r3, #1073741824
+ 215 000e 0CD0     		beq	.L27
+ 216              	.L22:
+ 217 0010 02B0     		add	sp, sp, #8
+ 218              		@ sp needed
+ 219 0012 7047     		bx	lr
+ 220              	.L26:
+ 221 0014 0C4B     		ldr	r3, .L28+4
+ 222 0016 9A69     		ldr	r2, [r3, #24]
+ 223 0018 42F40062 		orr	r2, r2, #2048
+ 224 001c 9A61     		str	r2, [r3, #24]
+ 225 001e 9B69     		ldr	r3, [r3, #24]
+ 226 0020 03F40063 		and	r3, r3, #2048
+ 227 0024 0093     		str	r3, [sp]
+ 228 0026 009B     		ldr	r3, [sp]
+ 229 0028 F2E7     		b	.L22
+ 230              	.L27:
+ 231 002a 03F50433 		add	r3, r3, #135168
+ 232 002e DA69     		ldr	r2, [r3, #28]
+ 233 0030 42F00102 		orr	r2, r2, #1
+ 234 0034 DA61     		str	r2, [r3, #28]
+ 235 0036 DB69     		ldr	r3, [r3, #28]
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s 			page 5
+
+
+ 236 0038 03F00103 		and	r3, r3, #1
+ 237 003c 0193     		str	r3, [sp, #4]
+ 238 003e 019B     		ldr	r3, [sp, #4]
+ 239 0040 E6E7     		b	.L22
+ 240              	.L29:
+ 241 0042 00BF     		.align	2
+ 242              	.L28:
+ 243 0044 002C0140 		.word	1073818624
+ 244 0048 00100240 		.word	1073876992
+ 246              		.section	.text.HAL_TIM_MspPostInit,"ax",%progbits
+ 247              		.align	1
+ 248              		.global	HAL_TIM_MspPostInit
+ 249              		.syntax unified
+ 250              		.thumb
+ 251              		.thumb_func
+ 253              	HAL_TIM_MspPostInit:
+ 254              		@ args = 0, pretend = 0, frame = 32
+ 255              		@ frame_needed = 0, uses_anonymous_args = 0
+ 256 0000 10B5     		push	{r4, lr}
+ 257 0002 88B0     		sub	sp, sp, #32
+ 258 0004 0023     		movs	r3, #0
+ 259 0006 0493     		str	r3, [sp, #16]
+ 260 0008 0593     		str	r3, [sp, #20]
+ 261 000a 0693     		str	r3, [sp, #24]
+ 262 000c 0793     		str	r3, [sp, #28]
+ 263 000e 0368     		ldr	r3, [r0]
+ 264 0010 264A     		ldr	r2, .L36
+ 265 0012 9342     		cmp	r3, r2
+ 266 0014 04D0     		beq	.L34
+ 267 0016 B3F1804F 		cmp	r3, #1073741824
+ 268 001a 16D0     		beq	.L35
+ 269              	.L30:
+ 270 001c 08B0     		add	sp, sp, #32
+ 271              		@ sp needed
+ 272 001e 10BD     		pop	{r4, pc}
+ 273              	.L34:
+ 274 0020 234B     		ldr	r3, .L36+4
+ 275 0022 9A69     		ldr	r2, [r3, #24]
+ 276 0024 42F00402 		orr	r2, r2, #4
+ 277 0028 9A61     		str	r2, [r3, #24]
+ 278 002a 9B69     		ldr	r3, [r3, #24]
+ 279 002c 03F00403 		and	r3, r3, #4
+ 280 0030 0193     		str	r3, [sp, #4]
+ 281 0032 019B     		ldr	r3, [sp, #4]
+ 282 0034 4FF44073 		mov	r3, #768
+ 283 0038 0493     		str	r3, [sp, #16]
+ 284 003a 0223     		movs	r3, #2
+ 285 003c 0593     		str	r3, [sp, #20]
+ 286 003e 0793     		str	r3, [sp, #28]
+ 287 0040 04A9     		add	r1, sp, #16
+ 288 0042 1C48     		ldr	r0, .L36+8
+ 289 0044 FFF7FEFF 		bl	HAL_GPIO_Init
+ 290 0048 E8E7     		b	.L30
+ 291              	.L35:
+ 292 004a 03F50433 		add	r3, r3, #135168
+ 293 004e 9A69     		ldr	r2, [r3, #24]
+ 294 0050 42F00402 		orr	r2, r2, #4
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s 			page 6
+
+
+ 295 0054 9A61     		str	r2, [r3, #24]
+ 296 0056 9A69     		ldr	r2, [r3, #24]
+ 297 0058 02F00402 		and	r2, r2, #4
+ 298 005c 0292     		str	r2, [sp, #8]
+ 299 005e 029A     		ldr	r2, [sp, #8]
+ 300 0060 9A69     		ldr	r2, [r3, #24]
+ 301 0062 42F00802 		orr	r2, r2, #8
+ 302 0066 9A61     		str	r2, [r3, #24]
+ 303 0068 9B69     		ldr	r3, [r3, #24]
+ 304 006a 03F00803 		and	r3, r3, #8
+ 305 006e 0393     		str	r3, [sp, #12]
+ 306 0070 039B     		ldr	r3, [sp, #12]
+ 307 0072 4FF40043 		mov	r3, #32768
+ 308 0076 0493     		str	r3, [sp, #16]
+ 309 0078 0224     		movs	r4, #2
+ 310 007a 0594     		str	r4, [sp, #20]
+ 311 007c 0794     		str	r4, [sp, #28]
+ 312 007e 04A9     		add	r1, sp, #16
+ 313 0080 0C48     		ldr	r0, .L36+8
+ 314 0082 FFF7FEFF 		bl	HAL_GPIO_Init
+ 315 0086 0823     		movs	r3, #8
+ 316 0088 0493     		str	r3, [sp, #16]
+ 317 008a 0594     		str	r4, [sp, #20]
+ 318 008c 0794     		str	r4, [sp, #28]
+ 319 008e 04A9     		add	r1, sp, #16
+ 320 0090 0948     		ldr	r0, .L36+12
+ 321 0092 FFF7FEFF 		bl	HAL_GPIO_Init
+ 322 0096 094A     		ldr	r2, .L36+16
+ 323 0098 5368     		ldr	r3, [r2, #4]
+ 324 009a 23F44073 		bic	r3, r3, #768
+ 325 009e 43F0E063 		orr	r3, r3, #117440512
+ 326 00a2 43F48073 		orr	r3, r3, #256
+ 327 00a6 5360     		str	r3, [r2, #4]
+ 328 00a8 B8E7     		b	.L30
+ 329              	.L37:
+ 330 00aa 00BF     		.align	2
+ 331              	.L36:
+ 332 00ac 002C0140 		.word	1073818624
+ 333 00b0 00100240 		.word	1073876992
+ 334 00b4 00080140 		.word	1073809408
+ 335 00b8 000C0140 		.word	1073810432
+ 336 00bc 00000140 		.word	1073807360
+ 338              		.section	.text.HAL_TIM_Base_MspDeInit,"ax",%progbits
+ 339              		.align	1
+ 340              		.global	HAL_TIM_Base_MspDeInit
+ 341              		.syntax unified
+ 342              		.thumb
+ 343              		.thumb_func
+ 345              	HAL_TIM_Base_MspDeInit:
+ 346              		@ args = 0, pretend = 0, frame = 0
+ 347              		@ frame_needed = 0, uses_anonymous_args = 0
+ 348              		@ link register save eliminated.
+ 349 0000 0368     		ldr	r3, [r0]
+ 350 0002 0A4A     		ldr	r2, .L43
+ 351 0004 9342     		cmp	r3, r2
+ 352 0006 03D0     		beq	.L41
+ 353 0008 B3F1804F 		cmp	r3, #1073741824
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s 			page 7
+
+
+ 354 000c 07D0     		beq	.L42
+ 355              	.L38:
+ 356 000e 7047     		bx	lr
+ 357              	.L41:
+ 358 0010 02F56442 		add	r2, r2, #58368
+ 359 0014 9369     		ldr	r3, [r2, #24]
+ 360 0016 23F40063 		bic	r3, r3, #2048
+ 361 001a 9361     		str	r3, [r2, #24]
+ 362 001c 7047     		bx	lr
+ 363              	.L42:
+ 364 001e 044A     		ldr	r2, .L43+4
+ 365 0020 D369     		ldr	r3, [r2, #28]
+ 366 0022 23F00103 		bic	r3, r3, #1
+ 367 0026 D361     		str	r3, [r2, #28]
+ 368 0028 F1E7     		b	.L38
+ 369              	.L44:
+ 370 002a 00BF     		.align	2
+ 371              	.L43:
+ 372 002c 002C0140 		.word	1073818624
+ 373 0030 00100240 		.word	1073876992
+ 375              		.ident	"GCC: (xPack GNU Arm Embedded GCC x86_64) 13.3.1 20240614"
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s 			page 8
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 stm32f1xx_hal_msp.c
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:16     .text.HAL_MspInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:22     .text.HAL_MspInit:00000000 HAL_MspInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:53     .text.HAL_MspInit:0000003c $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:57     .text.HAL_ADC_MspInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:63     .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:151    .text.HAL_ADC_MspInit:000000b8 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:158    .text.HAL_ADC_MspDeInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:164    .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:193    .text.HAL_ADC_MspDeInit:00000038 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:199    .text.HAL_TIM_Base_MspInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:205    .text.HAL_TIM_Base_MspInit:00000000 HAL_TIM_Base_MspInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:243    .text.HAL_TIM_Base_MspInit:00000044 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:247    .text.HAL_TIM_MspPostInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:253    .text.HAL_TIM_MspPostInit:00000000 HAL_TIM_MspPostInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:332    .text.HAL_TIM_MspPostInit:000000ac $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:339    .text.HAL_TIM_Base_MspDeInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:345    .text.HAL_TIM_Base_MspDeInit:00000000 HAL_TIM_Base_MspDeInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccJrnZwi.s:372    .text.HAL_TIM_Base_MspDeInit:0000002c $d
+
+UNDEFINED SYMBOLS
+HAL_GPIO_Init
+HAL_DMA_Init
+HAL_NVIC_SetPriority
+HAL_NVIC_EnableIRQ
+Error_Handler
+hdma_adc1
+HAL_GPIO_DeInit
+HAL_DMA_DeInit
+HAL_NVIC_DisableIRQ

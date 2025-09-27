@@ -53,8 +53,8 @@ TIM_HandleTypeDef htim2;
 /* USER CODE BEGIN PV */
 uint32_t adc_buffer[9];
 
-float Kp = 0;
-float Ki = 0;
+float Kp = 0.5;
+float Ki = 0.1;
 float Kd = 0;
 
 uint8_t multiP = 1;
@@ -66,6 +66,9 @@ uint8_t Kdfinal;
 float Pvalue;
 float Ivalue;
 float Dvalue;
+
+uint32_t dt;
+uint32_t t0;
 
 uint16_t position;
 int P, D, I, previousError, PIDvalue, error;
@@ -143,7 +146,25 @@ int main(void)
   // M_Disable();
   // Enter_Sleep();
   while(!HAL_GPIO_ReadPin(BTT_ON_GPIO_Port, BTT_ON_Pin));
-  HAL_Delay(1000);
+  
+
+  HAL_GPIO_WritePin(BUZZ_GPIO_Port, BUZZ_Pin, GPIO_PIN_SET);
+  HAL_Delay(300);
+  HAL_GPIO_WritePin(BUZZ_GPIO_Port, BUZZ_Pin, GPIO_PIN_RESET);
+
+  HAL_Delay(500);
+
+  HAL_GPIO_WritePin(BUZZ_GPIO_Port, BUZZ_Pin, GPIO_PIN_SET);
+  HAL_Delay(200);
+  HAL_GPIO_WritePin(BUZZ_GPIO_Port, BUZZ_Pin, GPIO_PIN_RESET);
+
+  HAL_Delay(500);
+
+  HAL_GPIO_WritePin(BUZZ_GPIO_Port, BUZZ_Pin, GPIO_PIN_SET);
+  HAL_Delay(100);
+  HAL_GPIO_WritePin(BUZZ_GPIO_Port, BUZZ_Pin, GPIO_PIN_RESET);
+
+  HAL_Delay(400);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -165,6 +186,7 @@ int main(void)
       M_Disable();
       HAL_GPIO_WritePin(LED_ON_GPIO_Port, LED_ON_Pin, GPIO_PIN_RESET);
       HAL_GPIO_WritePin(IR_EN_GPIO_Port, IR_EN_Pin, GPIO_PIN_RESET);
+      HAL_NVIC_SystemReset();
       break;
     }
 
@@ -606,10 +628,10 @@ void Robot_Control(void){
   error = 3500 - position;
   while(Get_Line() == 0){
     if(previousError<0){      
-      M_SetSpeed(0.7*MAX_SPEED, 0.7*MAX_SPEED, BACKWARD, FORWARD);
+      M_SetSpeed(0.4*MAX_SPEED, 0.7*MAX_SPEED, BACKWARD, FORWARD);
     }
     else{
-      M_SetSpeed(0.7*MAX_SPEED, 0.7*MAX_SPEED, FORWARD, BACKWARD);
+      M_SetSpeed(0.7*MAX_SPEED, 0.4*MAX_SPEED, FORWARD, BACKWARD);
     }
     adc_done_flag = false;
     HAL_ADC_Start_DMA(&hadc1, adc_buffer, 9);
@@ -638,6 +660,7 @@ uint32_t Read_Line(void){
     for (uint8_t i = 0; i < 8; i++) {
         uint16_t value = Normalize_Sensors(adc_buffer[i+1], i);  // ADC value for sensor i
         avg += (uint32_t)value * (i * 1000);
+        
         sum += value;
     }
 
@@ -647,8 +670,12 @@ uint32_t Read_Line(void){
 
 void PID_Linefollow(int32_t error){
     P = error;
-    I = I + error;
+    I = I + error*((HAL_GetTick()-t0)/1000);
     D = error - previousError;
+
+    if (position >= 3500) I = 0;
+
+    t0 = HAL_GetTick();
     
     Pvalue = (Kp/pow(10,multiP))*P;
     Ivalue = (Ki/pow(10,multiI))*I;

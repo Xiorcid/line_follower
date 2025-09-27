@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
   29:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   [..]
   30:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   (+) 12-bit resolution
   31:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 2
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 2
 
 
   32:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   (+) Interrupt generation at the end of regular conversion, end of injected
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
   86:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                    other device clock parameters configuration:
   87:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                (+++) RCC_PeriphCLKInitTypeDef  PeriphClkInit;
   88:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                (+++) __ADC1_CLK_ENABLE();
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 3
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 3
 
 
   89:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                (+++) PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  143:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****      [..]
  144:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  145:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     (#) Optionally, perform an automatic ADC calibration to improve the
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 4
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 4
 
 
  146:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         conversion accuracy
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  200:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                 using function HAL_ADCEx_MultiModeStop_DMA()
  201:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****           (+++) Stop conversion and disable the ADC peripheral (slave)
  202:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                 using function HAL_ADC_Stop_IT()
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 5
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 5
 
 
  203:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  257:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (+) ConvCpltCallback               : ADC conversion complete callback
  258:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (+) ConvHalfCpltCallback           : ADC conversion DMA half-transfer callback
  259:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (+) LevelOutOfWindowCallback       : ADC analog watchdog 1 callback
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 6
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 6
 
 
  260:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (+) ErrorCallback                  : ADC error callback
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  314:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /* Includes ------------------------------------------------------------------*/
  315:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** #include "stm32f1xx_hal.h"
  316:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 7
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 7
 
 
  317:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /** @addtogroup STM32F1xx_HAL_Driver
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  371:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
  372:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  373:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /** @defgroup ADC_Exported_Functions_Group1 Initialization/de-initialization functions 
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 8
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 8
 
 
  374:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @brief    Initialization and Configuration functions
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  428:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   assert_param(IS_FUNCTIONAL_STATE(hadc->Init.ContinuousConvMode));
  429:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   assert_param(IS_ADC_EXTTRIG(hadc->Init.ExternalTrigConv));
  430:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 9
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 9
 
 
  431:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   if(hadc->Init.ScanConvMode != ADC_SCAN_DISABLE)
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  485:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Configuration of ADC parameters if previous preliminary actions are      */ 
  486:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* correctly completed.                                                     */
  487:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   if (HAL_IS_BIT_CLR(hadc->State, HAL_ADC_STATE_ERROR_INTERNAL) &&
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 10
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 10
 
 
  488:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       (tmp_hal_status == HAL_OK)                                  )
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  542:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Update ADC configuration register CR1 with previous settings */
  543:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       MODIFY_REG(hadc->Instance->CR1,
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                  ADC_CR1_SCAN    |
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 11
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 11
 
 
  545:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                  ADC_CR1_DISCEN  |
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  599:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                         HAL_ADC_STATE_BUSY_INTERNAL,
  600:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                         HAL_ADC_STATE_ERROR_INTERNAL);
  601:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 12
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 12
 
 
  602:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Set ADC error code to ADC IP internal error */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  656:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  657:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  658:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 13
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 13
 
 
  659:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Reset register SR */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  713:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                                     ADC_SQR2_SQ9  | ADC_SQR2_SQ8  | ADC_SQR2_SQ7   );
  714:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
  715:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Reset register SQR3 */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 14
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 14
 
 
  716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     CLEAR_BIT(hadc->Instance->SQR3, ADC_SQR3_SQ6 | ADC_SQR3_SQ5 | ADC_SQR3_SQ4 | 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  770:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
  771:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  772:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /**
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 15
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 15
 
 
  773:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @brief  Initializes the ADC MSP.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
   58              	.LFE68:
   60              		.section	.text.HAL_ADC_PollForConversion,"ax",%progbits
   61              		.align	1
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 16
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 16
 
 
   62              		.global	HAL_ADC_PollForConversion
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  846:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         break;
  847:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
  848:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       case HAL_ADC_ERROR_CB_ID :
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 17
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 17
 
 
  849:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         hadc->ErrorCallback = pCallback;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  903:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   return status;
  904:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
  905:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 18
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 18
 
 
  906:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /**
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  960:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       default :
  961:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         /* Update the error code */
  962:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         hadc->ErrorCode |= HAL_ADC_ERROR_INVALID_CALLBACK;
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 19
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 19
 
 
  963:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1017:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       (+) Stop conversion of regular group.
 1018:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       (+) Poll for conversion complete on regular group.
 1019:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       (+) Poll for conversion event.
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 20
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 20
 
 
 1020:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       (+) Get result of regular channel conversion.
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1074:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     else
 1075:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
 1076:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Set ADC state (ADC slave) */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 21
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 21
 
 
 1077:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       SET_BIT(hadc->State, HAL_ADC_STATE_MULTIMODE_SLAVE);
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1131:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
 1132:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Process unlocked */
 1133:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     __HAL_UNLOCK(hadc);
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 22
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 22
 
 
 1134:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1188:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *         wait for maximum conversion time.
 1189:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @param  hadc: ADC handle
 1190:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @param  Timeout: Timeout value in millisecond.
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 23
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 23
 
 
 1191:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @retval HAL status
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  103              		.loc 1 1211 6 view .LVU17
  104 0014 12F4807F 		tst	r2, #256
  105 0018 23D1     		bne	.L28
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 24
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 24
 
 
  106 001a 0746     		mov	r7, r0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1252:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****             
 1253:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****             /* Process unlocked */
 1254:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****             __HAL_UNLOCK(hadc);
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 25
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 25
 
 
 1255:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****             
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1214:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
  157              		.loc 1 1214 5 is_stmt 1 view .LVU33
  158 0062 AB6A     		ldr	r3, [r5, #40]
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 26
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 26
 
 
  159 0064 43F02003 		orr	r3, r3, #32
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1308:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****      (hadc->Init.ContinuousConvMode == DISABLE)   )
 1309:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {   
 1310:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Set ADC state */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 27
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 27
 
 
 1311:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     CLEAR_BIT(hadc->State, HAL_ADC_STATE_REG_BUSY);   
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  204              		.loc 1 1245 47 discriminator 1 view .LVU49
  205 0098 C31B     		subs	r3, r0, r7
 1245:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         {
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 28
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 28
 
 
  206              		.loc 1 1245 28 discriminator 1 view .LVU50
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  249              	.L20:
 1270:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
  250              		.loc 1 1270 44 discriminator 8 view .LVU62
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 29
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 29
 
 
  251 00d8 2923     		movs	r3, #41
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  292 00fc 019B     		ldr	r3, [sp, #4]
  293 00fe B342     		cmp	r3, r6
  294 0100 13D2     		bcs	.L12
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 30
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 30
 
 
 1275:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  334 0134 43F40073 		orr	r3, r3, #512
  335 0138 AB62     		str	r3, [r5, #40]
 1307:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****      (hadc->Init.ContinuousConvMode == DISABLE)   )
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 31
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 31
 
 
  336              		.loc 1 1307 3 view .LVU91
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  379              		.cfi_endproc
  380              	.LFE71:
  382              		.section	.text.HAL_ADC_PollForEvent,"ax",%progbits
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 32
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 32
 
 
  383              		.align	1
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  418              	.LVL20:
 1342:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
 1343:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Check selected event flag */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 33
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 33
 
 
 1344:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   while(__HAL_ADC_GET_FLAG(hadc, EventType) == RESET)
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  456              	.L43:
 1349:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
  457              		.loc 1 1349 31 discriminator 1 view .LVU128
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 34
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 34
 
 
  458 003e FFF7FEFF 		bl	HAL_GetTick
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1379:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *         Interruptions enabled in this function:
 1380:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *          - EOC (end of conversion of regular group)
 1381:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   *         Each of these interruptions has its dedicated callback function.
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 35
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 35
 
 
 1382:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @param  hadc: ADC handle
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1436:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* State machine update: Check if an injected conversion is ongoing */
 1437:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     if (HAL_IS_BIT_SET(hadc->State, HAL_ADC_STATE_INJ_BUSY))
 1438:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 36
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 36
 
 
 1439:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Reset ADC error code fields related to conversions on group regular */
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1493:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @param  hadc: ADC handle
 1494:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @retval None
 1495:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 37
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 37
 
 
 1496:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** HAL_StatusTypeDef HAL_ADC_Stop_IT(ADC_HandleTypeDef* hadc)
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1550:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @param  Length: The length of data to be transferred from ADC peripheral to memory.
 1551:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @retval None
 1552:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 38
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 38
 
 
 1553:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length)
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1607:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
 1608:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
 1609:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* State machine update: Check if an injected conversion is ongoing */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 39
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 39
 
 
 1610:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       if (HAL_IS_BIT_SET(hadc->State, HAL_ADC_STATE_INJ_BUSY))
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1664:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
 1665:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     else
 1666:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 40
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 40
 
 
 1667:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Process unlocked */
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1721:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       if (tmp_hal_status == HAL_OK)
 1722:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
 1723:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         /* Set ADC state */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 41
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 41
 
 
 1724:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         ADC_STATE_CLR_SET(hadc->State,
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  500              		.loc 1 1771 3 view .LVU139
  501              		.loc 1 1771 14 is_stmt 0 view .LVU140
  502 0000 0368     		ldr	r3, [r0]
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 42
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 42
 
 
  503              		.loc 1 1771 24 view .LVU141
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1810:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         /* Disable ADC end of conversion interrupt on group regular */
 1811:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         __HAL_ADC_DISABLE_IT(hadc, ADC_IT_EOC);
 1812:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 43
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 43
 
 
 1813:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         /* Set ADC state */
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1867:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         }
 1868:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       }
 1869:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 44
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 44
 
 
 1870:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       /* Conversion complete callback */ 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  528 0000 7047     		bx	lr
  529              		.cfi_endproc
  530              	.LFE79:
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 45
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 45
 
 
  532              		.section	.text.ADC_DMAConvCplt,"ax",%progbits
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1962:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /**
 1963:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @}
 1964:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 46
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 46
 
 
 1965:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2019:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     MODIFY_REG(hadc->Instance->SQR3                        ,
 2020:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                ADC_SQR3_RK(ADC_SQR3_SQ1, sConfig->Rank)    ,
 2021:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                ADC_SQR3_RK(sConfig->Channel, sConfig->Rank) );
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 47
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 47
 
 
 2022:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2076:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****           }
 2077:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         }
 2078:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       }
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 48
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 48
 
 
 2079:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2133:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
 2134:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Enable the ADC Analog watchdog interrupt */
 2135:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     __HAL_ADC_ENABLE_IT(hadc, ADC_IT_AWD);
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 49
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 49
 
 
 2136:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2190:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   */
 2191:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
 2192:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** /**
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 50
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 50
 
 
 2193:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   * @brief  return the ADC state
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2247:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Compute number of CPU cycles to wait for */
 2248:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     wait_loop_index = (ADC_STAB_DELAY_US * (SystemCoreClock / 1000000U));
 2249:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     while(wait_loop_index != 0U)
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 51
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 51
 
 
 2250:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2304:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     /* Wait for ADC effectively disabled */
 2305:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     while(ADC_IS_ENABLE(hadc) != RESET)
 2306:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 52
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 52
 
 
 2307:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       if((HAL_GetTick() - tickstart) > ADC_DISABLE_TIMEOUT)
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2342:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     SET_BIT(hadc->State, HAL_ADC_STATE_REG_EOC);
  561              		.loc 1 2342 5 is_stmt 1 view .LVU153
  562 000c 9A6A     		ldr	r2, [r3, #40]
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 53
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 53
 
 
  563 000e 42F40072 		orr	r2, r2, #512
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  585              		.loc 1 2350 19 view .LVU160
  586 002a 1A7B     		ldrb	r2, [r3, #12]	@ zero_extendqisi2
 2349:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****        (hadc->Init.ContinuousConvMode == DISABLE)   )
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 54
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 54
 
 
  587              		.loc 1 2349 51 discriminator 1 view .LVU161
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  633              		@ frame_needed = 0, uses_anonymous_args = 0
  634              		@ link register save eliminated.
 1926:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* NOTE : This function should not be modified. When the callback is needed,
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 55
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 55
 
 
  635              		.loc 1 1926 3 view .LVU173
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  673              		.section	.text.HAL_ADC_LevelOutOfWindowCallback,"ax",%progbits
  674              		.align	1
  675              		.weak	HAL_ADC_LevelOutOfWindowCallback
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 56
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 56
 
 
  676              		.syntax unified
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  723              		.loc 1 1782 12 is_stmt 0 view .LVU190
  724 0008 5D68     		ldr	r5, [r3, #4]
  725              	.LVL40:
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 57
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 57
 
 
 1785:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   assert_param(IS_FUNCTIONAL_STATE(hadc->Init.ContinuousConvMode));
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  763 0038 2368     		ldr	r3, [r4]
  764 003a 6FF01202 		mvn	r2, #18
  765 003e 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 58
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 58
 
 
  766              	.L57:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  805              	.L63:
 1874:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** #endif /* USE_HAL_ADC_REGISTER_CALLBACKS */
  806              		.loc 1 1874 7 is_stmt 1 view .LVU223
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 59
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 59
 
 
  807 007e 2046     		mov	r0, r4
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  847              		.loc 1 1818 11 is_stmt 1 view .LVU237
  848 00b8 A36A     		ldr	r3, [r4, #40]
  849 00ba 43F00103 		orr	r3, r3, #1
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 60
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 60
 
 
  850 00be A362     		str	r3, [r4, #40]
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  892              		.loc 1 1902 1 is_stmt 0 view .LVU249
  893 0100 CAE7     		b	.L56
  894              		.cfi_endproc
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 61
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 61
 
 
  895              	.LFE78:
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  940              	.LVL49:
 2402:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
 2403:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   /* Set ADC state */
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 62
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 62
 
 
 2404:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   SET_BIT(hadc->State, HAL_ADC_STATE_ERROR_DMA);
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  981              		.loc 1 2003 3 view .LVU264
 2003:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  982              		.loc 1 2003 17 is_stmt 0 view .LVU265
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 63
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 63
 
 
  983 0004 0022     		movs	r2, #0
@@ -3744,7 +3744,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  996 0014 0122     		movs	r2, #1
  997 0016 80F82420 		strb	r2, [r0, #36]
 2012:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
- 998              		.loc 1 2012 3 view .LVU273
+ 998              		.loc 1 2012 3 discriminator 2 view .LVU273
 2017:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  999              		.loc 1 2017 3 view .LVU274
 2017:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1022 0040 0A68     		ldr	r2, [r1]
 2041:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  1023              		.loc 1 2041 6 view .LVU281
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 64
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 64
 
 
  1024 0042 092A     		cmp	r2, #9
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1067              		.cfi_def_cfa_offset 0
  1068 007a 7047     		bx	lr
  1069              	.LVL56:
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 65
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 65
 
 
  1070              	.L74:
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1117 00ce 05FA02F2 		lsl	r2, r5, r2
  1118 00d2 0243     		orrs	r2, r2, r0
  1119 00d4 2261     		str	r2, [r4, #16]
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 66
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 66
 
 
  1120 00d6 C6E7     		b	.L78
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2072:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****           while(wait_loop_index != 0U)
  1160              		.loc 1 2072 11 is_stmt 1 view .LVU314
 2072:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****           while(wait_loop_index != 0U)
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 67
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 67
 
 
  1161              		.loc 1 2072 73 is_stmt 0 view .LVU315
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1203              	.L92:
  1204              		.align	2
  1205              	.L91:
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 68
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 68
 
 
  1206 0134 00240140 		.word	1073816576
@@ -4074,11 +4074,11 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1246 000c 0122     		movs	r2, #1
  1247 000e 80F82420 		strb	r2, [r0, #36]
 2127:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
- 1248              		.loc 1 2127 3 view .LVU340
+ 1248              		.loc 1 2127 3 discriminator 2 view .LVU340
 2132:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  1249              		.loc 1 2132 3 view .LVU341
 2132:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 69
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 69
 
 
  1250              		.loc 1 2132 21 is_stmt 0 view .LVU342
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1292              		.cfi_restore 5
  1293              		.cfi_restore 4
  1294              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 70
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 70
 
 
  1295 0048 7047     		bx	lr
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1343              		.loc 1 2201 1 view .LVU362
  1344 0002 7047     		bx	lr
  1345              		.cfi_endproc
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 71
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 71
 
 
  1346              	.LFE85:
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1396              		.loc 1 2235 3 view .LVU370
 2235:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  1397              		.loc 1 2235 17 is_stmt 0 view .LVU371
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 72
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 72
 
 
  1398 0004 0023     		movs	r3, #0
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1438              	.LVL79:
 2255:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  1439              		.loc 1 2255 17 view .LVU386
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 73
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 73
 
 
  1440 003c 0546     		mov	r5, r0
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2272:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
  1479              		.loc 1 2272 11 view .LVU402
 2274:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         }
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 74
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 74
 
 
  1480              		.loc 1 2274 11 view .LVU403
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1527 0006 45D0     		beq	.L125
 1037:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
  1528              		.loc 1 1037 1 is_stmt 0 view .LVU413
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 75
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 75
 
 
  1529 0008 10B5     		push	{r4, lr}
@@ -4451,7 +4451,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1535 000c 0123     		movs	r3, #1
  1536 000e 80F82430 		strb	r3, [r0, #36]
 1044:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****    
- 1537              		.loc 1 1044 3 view .LVU415
+ 1537              		.loc 1 1044 3 discriminator 2 view .LVU415
 1047:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  1538              		.loc 1 1047 3 view .LVU416
 1047:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1088:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
  1570              		.loc 1 1088 5 view .LVU427
 1088:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 76
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 76
 
 
  1571              		.loc 1 1088 9 is_stmt 0 view .LVU428
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1613              	.L120:
 1133:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
  1614              		.loc 1 1133 5 view .LVU441
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 77
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 77
 
 
 1133:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
@@ -4618,12 +4618,12 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1393:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
  1661              		.loc 1 1393 3 is_stmt 1 discriminator 2 view .LVU452
  1662 000c 0123     		movs	r3, #1
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 78
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 78
 
 
  1663 000e 80F82430 		strb	r3, [r0, #36]
 1393:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
- 1664              		.loc 1 1393 3 view .LVU453
+ 1664              		.loc 1 1393 3 discriminator 2 view .LVU453
 1396:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  1665              		.loc 1 1396 3 view .LVU454
 1396:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1702 004e 1AD0     		beq	.L135
 1440:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
  1703              		.loc 1 1440 7 is_stmt 1 view .LVU468
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 79
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 79
 
 
  1704 0050 E26A     		ldr	r2, [r4, #44]
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1746              		.loc 1 1482 5 view .LVU480
 1482:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   }
  1747              		.loc 1 1482 5 view .LVU481
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 80
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 80
 
 
  1748 0096 0023     		movs	r3, #0
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1566:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
  1795              		.loc 1 1566 5 view .LVU491
  1796 0004 90F82410 		ldrb	r1, [r0, #36]	@ zero_extendqisi2
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 81
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 81
 
 
  1797              	.LVL94:
@@ -4813,7 +4813,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1804 0010 0123     		movs	r3, #1
  1805 0012 80F82430 		strb	r3, [r0, #36]
 1566:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
- 1806              		.loc 1 1566 5 view .LVU494
+ 1806              		.loc 1 1566 5 discriminator 2 view .LVU494
 1569:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
  1807              		.loc 1 1569 5 view .LVU495
 1569:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1837 0048 43F48053 		orr	r3, r3, #4096
  1838 004c A362     		str	r3, [r4, #40]
  1839              	.L147:
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 82
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 82
 
 
 1610:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  1877 007c 1A60     		str	r2, [r3]
 1645:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
  1878              		.loc 1 1645 7 view .LVU523
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 83
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 83
 
 
  1879 007e 2268     		ldr	r2, [r4]
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 1668:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
  1923              		.loc 1 1668 7 view .LVU534
 1668:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 84
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 84
 
 
  1924              		.loc 1 1668 7 view .LVU535
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
 2296:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  1973              		.loc 1 2296 6 view .LVU543
  1974 0006 12F0010F 		tst	r2, #1
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 85
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 85
 
 
  1975 000a 01D1     		bne	.L162
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2014 0032 F5D9     		bls	.L158
 2310:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         {
  2015              		.loc 1 2310 9 is_stmt 1 view .LVU559
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 86
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 86
 
 
 2310:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****         {
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2059              		.loc 1 419 3 view .LVU572
  419:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  2060              		.loc 1 419 5 is_stmt 0 view .LVU573
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 87
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 87
 
 
  2061 0000 0028     		cmp	r0, #0
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  487:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       (tmp_hal_status == HAL_OK)                                  )
  2097              		.loc 1 487 6 view .LVU592
  2098 0016 13F01003 		ands	r3, r3, #16
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 88
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 88
 
 
  2099 001a 69D1     		bne	.L167
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2138 004e 35D0     		beq	.L182
  2139              	.L169:
  543:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                  ADC_CR1_SCAN    |
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 89
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 89
 
 
  2140              		.loc 1 543 7 is_stmt 1 view .LVU608
@@ -5321,8 +5321,8 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  568:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     }
  2169              		.loc 1 568 16 view .LVU617
  2170 0078 1B05     		lsls	r3, r3, #20
- 2171              	.L172:
- 2172              	.LVL116:
+ 2171              	.LVL116:
+ 2172              	.L172:
  571:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                ADC_SQR1_L          ,
  2173              		.loc 1 571 5 is_stmt 1 view .LVU618
  2174 007a 2568     		ldr	r5, [r4]
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  581:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                                         ADC_CR2_SWSTART | ADC_CR2_JSWSTART |
  2182              		.loc 1 581 9 is_stmt 0 view .LVU621
  2183 0086 2368     		ldr	r3, [r4]
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 90
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 90
 
 
  2184 0088 9968     		ldr	r1, [r3, #8]
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2225 00bc 31B9     		cbnz	r1, .L170
  526:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                          ADC_CR1_DISCONTINUOUS_NUM(hadc->Init.NbrOfDiscConversion)  );
  2226              		.loc 1 526 9 is_stmt 1 view .LVU635
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 91
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 91
 
 
  2227 00be A169     		ldr	r1, [r4, #24]
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2272              		.cfi_restore 4
  2273              		.cfi_restore 5
  2274              		.cfi_restore 6
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 92
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 92
 
 
  2275              		.cfi_restore 14
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  647:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  2322              		.loc 1 647 3 view .LVU654
  647:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 93
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 93
 
 
  2323              		.loc 1 647 20 is_stmt 0 view .LVU655
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  682:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                                       ADC_SMPR2_SMP6 | ADC_SMPR2_SMP5 | ADC_SMPR2_SMP4 | 
  2366              		.loc 1 682 5 view .LVU667
  2367 0048 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 94
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 94
 
 
  2368 004a 1369     		ldr	r3, [r2, #16]
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2413 00a4 136B     		ldr	r3, [r2, #48]
  2414 00a6 03F04043 		and	r3, r3, #-1073741824
  2415 00aa 1363     		str	r3, [r2, #48]
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 95
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 95
 
 
  716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                                     ADC_SQR3_SQ3 | ADC_SQR3_SQ2 | ADC_SQR3_SQ1  );
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2462              		.thumb_func
  2464              	HAL_ADC_Stop:
  2465              	.LVL139:
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 96
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 96
 
 
  2466              	.LFB70:
@@ -5730,7 +5730,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2485 000c 0123     		movs	r3, #1
  2486 000e 80F82430 		strb	r3, [r0, #36]
 1157:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
- 2487              		.loc 1 1157 3 view .LVU693
+ 2487              		.loc 1 1157 3 discriminator 2 view .LVU693
 1161:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  2488              		.loc 1 1161 3 view .LVU694
 1161:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2505 002a 84F82430 		strb	r3, [r4, #36]
 1173:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  2506              		.loc 1 1173 3 view .LVU701
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 97
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 97
 
 
 1176:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
@@ -5817,8 +5817,8 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2551 000c 0123     		movs	r3, #1
  2552 000e 80F82430 		strb	r3, [r0, #36]
 1504:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
- 2553              		.loc 1 1504 3 view .LVU713
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 98
+ 2553              		.loc 1 1504 3 discriminator 2 view .LVU713
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 98
 
 
 1508:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2596              		.global	HAL_ADC_Stop_DMA
  2597              		.syntax unified
  2598              		.thumb
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 99
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 99
 
 
  2599              		.thumb_func
@@ -5900,7 +5900,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2611              		.loc 1 1702 3 view .LVU731
  2612 0000 90F82430 		ldrb	r3, [r0, #36]	@ zero_extendqisi2
  2613 0004 012B     		cmp	r3, #1
- 2614 0006 27D0     		beq	.L214
+ 2614 0006 28D0     		beq	.L214
 1695:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
  2615              		.loc 1 1695 1 is_stmt 0 view .LVU732
  2616 0008 10B5     		push	{r4, lr}
@@ -5913,7 +5913,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2622 000c 0123     		movs	r3, #1
  2623 000e 80F82430 		strb	r3, [r0, #36]
 1702:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
- 2624              		.loc 1 1702 3 view .LVU734
+ 2624              		.loc 1 1702 3 discriminator 2 view .LVU734
 1706:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
  2625              		.loc 1 1706 3 view .LVU735
 1706:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
@@ -5924,7 +5924,7 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2629              		.loc 1 1709 3 is_stmt 1 view .LVU737
 1709:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   {
  2630              		.loc 1 1709 6 is_stmt 0 view .LVU738
- 2631 0016 48B9     		cbnz	r0, .L212
+ 2631 0016 50B9     		cbnz	r0, .L212
 1712:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
  2632              		.loc 1 1712 5 is_stmt 1 view .LVU739
  2633 0018 2268     		ldr	r2, [r4]
@@ -5935,162 +5935,163 @@ ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 1
  2637              		.loc 1 1716 5 view .LVU740
 1716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
  2638              		.loc 1 1716 13 is_stmt 0 view .LVU741
- 2639 0022 236A     		ldr	r3, [r4, #32]
+ 2639 0022 226A     		ldr	r2, [r4, #32]
 1716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
  2640              		.loc 1 1716 25 view .LVU742
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 100
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 100
 
 
- 2641 0024 93F82120 		ldrb	r2, [r3, #33]	@ zero_extendqisi2
+ 2641 0024 92F82130 		ldrb	r3, [r2, #33]	@ zero_extendqisi2
+ 2642 0028 DBB2     		uxtb	r3, r3
 1716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     {
- 2642              		.loc 1 1716 8 view .LVU743
- 2643 0028 022A     		cmp	r2, #2
- 2644 002a 03D0     		beq	.L219
- 2645              	.L212:
+ 2643              		.loc 1 1716 8 view .LVU743
+ 2644 002a 022B     		cmp	r3, #2
+ 2645 002c 03D0     		beq	.L219
+ 2646              	.L212:
 1737:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
- 2646              		.loc 1 1737 3 is_stmt 1 view .LVU744
+ 2647              		.loc 1 1737 3 is_stmt 1 view .LVU744
 1737:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
- 2647              		.loc 1 1737 3 view .LVU745
- 2648 002c 0023     		movs	r3, #0
- 2649 002e 84F82430 		strb	r3, [r4, #36]
+ 2648              		.loc 1 1737 3 view .LVU745
+ 2649 002e 0023     		movs	r3, #0
+ 2650 0030 84F82430 		strb	r3, [r4, #36]
 1737:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****     
- 2650              		.loc 1 1737 3 view .LVU746
+ 2651              		.loc 1 1737 3 view .LVU746
 1740:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** }
- 2651              		.loc 1 1740 3 view .LVU747
+ 2652              		.loc 1 1740 3 view .LVU747
 1741:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
- 2652              		.loc 1 1741 1 is_stmt 0 view .LVU748
- 2653 0032 10BD     		pop	{r4, pc}
- 2654              	.LVL149:
- 2655              	.L219:
+ 2653              		.loc 1 1741 1 is_stmt 0 view .LVU748
+ 2654 0034 10BD     		pop	{r4, pc}
+ 2655              	.LVL149:
+ 2656              	.L219:
 1718:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
- 2656              		.loc 1 1718 7 is_stmt 1 view .LVU749
+ 2657              		.loc 1 1718 7 is_stmt 1 view .LVU749
 1718:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
- 2657              		.loc 1 1718 24 is_stmt 0 view .LVU750
- 2658 0034 1846     		mov	r0, r3
- 2659              	.LVL150:
+ 2658              		.loc 1 1718 24 is_stmt 0 view .LVU750
+ 2659 0036 1046     		mov	r0, r2
+ 2660              	.LVL150:
 1718:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       
- 2660              		.loc 1 1718 24 view .LVU751
- 2661 0036 FFF7FEFF 		bl	HAL_DMA_Abort
- 2662              	.LVL151:
+ 2661              		.loc 1 1718 24 view .LVU751
+ 2662 0038 FFF7FEFF 		bl	HAL_DMA_Abort
+ 2663              	.LVL151:
 1721:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
- 2663              		.loc 1 1721 7 is_stmt 1 view .LVU752
+ 2664              		.loc 1 1721 7 is_stmt 1 view .LVU752
 1721:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       {
- 2664              		.loc 1 1721 10 is_stmt 0 view .LVU753
- 2665 003a 40B9     		cbnz	r0, .L213
+ 2665              		.loc 1 1721 10 is_stmt 0 view .LVU753
+ 2666 003c 40B9     		cbnz	r0, .L213
 1724:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****                           HAL_ADC_STATE_REG_BUSY | HAL_ADC_STATE_INJ_BUSY,
- 2666              		.loc 1 1724 9 is_stmt 1 view .LVU754
- 2667 003c A36A     		ldr	r3, [r4, #40]
- 2668 003e 23F48853 		bic	r3, r3, #4352
- 2669 0042 23F00103 		bic	r3, r3, #1
- 2670 0046 43F00103 		orr	r3, r3, #1
- 2671 004a A362     		str	r3, [r4, #40]
- 2672 004c EEE7     		b	.L212
- 2673              	.L213:
+ 2667              		.loc 1 1724 9 is_stmt 1 view .LVU754
+ 2668 003e A36A     		ldr	r3, [r4, #40]
+ 2669 0040 23F48853 		bic	r3, r3, #4352
+ 2670 0044 23F00103 		bic	r3, r3, #1
+ 2671 0048 43F00103 		orr	r3, r3, #1
+ 2672 004c A362     		str	r3, [r4, #40]
+ 2673 004e EEE7     		b	.L212
+ 2674              	.L213:
 1731:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****       }
- 2674              		.loc 1 1731 9 view .LVU755
- 2675 004e A36A     		ldr	r3, [r4, #40]
- 2676 0050 43F04003 		orr	r3, r3, #64
- 2677 0054 A362     		str	r3, [r4, #40]
- 2678 0056 E9E7     		b	.L212
- 2679              	.LVL152:
- 2680              	.L214:
- 2681              		.cfi_def_cfa_offset 0
- 2682              		.cfi_restore 4
- 2683              		.cfi_restore 14
+ 2675              		.loc 1 1731 9 view .LVU755
+ 2676 0050 A36A     		ldr	r3, [r4, #40]
+ 2677 0052 43F04003 		orr	r3, r3, #64
+ 2678 0056 A362     		str	r3, [r4, #40]
+ 2679 0058 E9E7     		b	.L212
+ 2680              	.LVL152:
+ 2681              	.L214:
+ 2682              		.cfi_def_cfa_offset 0
+ 2683              		.cfi_restore 4
+ 2684              		.cfi_restore 14
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 101
+
+
 1702:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c ****   
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 101
-
-
- 2684              		.loc 1 1702 3 is_stmt 0 discriminator 1 view .LVU756
- 2685 0058 0220     		movs	r0, #2
- 2686              	.LVL153:
+ 2685              		.loc 1 1702 3 is_stmt 0 discriminator 1 view .LVU756
+ 2686 005a 0220     		movs	r0, #2
+ 2687              	.LVL153:
 1741:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c **** 
- 2687              		.loc 1 1741 1 view .LVU757
- 2688 005a 7047     		bx	lr
- 2689              		.cfi_endproc
- 2690              	.LFE76:
- 2692              		.text
- 2693              	.Letext0:
- 2694              		.file 2 "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/ma
- 2695              		.file 3 "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/arm-none-eabi/include/sy
- 2696              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xb.h"
- 2697              		.file 5 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"
- 2698              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
- 2699              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
- 2700              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h"
- 2701              		.file 9 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h"
- 2702              		.file 10 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
- 2703              		.file 11 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h"
- 2704              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 102
+ 2688              		.loc 1 1741 1 view .LVU757
+ 2689 005c 7047     		bx	lr
+ 2690              		.cfi_endproc
+ 2691              	.LFE76:
+ 2693              		.text
+ 2694              	.Letext0:
+ 2695              		.file 2 "/Users/kroko/Library/Application Support/Code/User/globalStorage/bmd.stm32-for-vscode/@xp
+ 2696              		.file 3 "/Users/kroko/Library/Application Support/Code/User/globalStorage/bmd.stm32-for-vscode/@xp
+ 2697              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xb.h"
+ 2698              		.file 5 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"
+ 2699              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
+ 2700              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
+ 2701              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h"
+ 2702              		.file 9 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h"
+ 2703              		.file 10 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
+ 2704              		.file 11 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h"
+ 2705              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 102
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_hal_adc.c
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:19     .text.HAL_ADC_MspInit:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:25     .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:40     .text.HAL_ADC_MspDeInit:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:46     .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:61     .text.HAL_ADC_PollForConversion:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:67     .text.HAL_ADC_PollForConversion:00000000 HAL_ADC_PollForConversion
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:374    .text.HAL_ADC_PollForConversion:00000170 $d
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:383    .text.HAL_ADC_PollForEvent:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:389    .text.HAL_ADC_PollForEvent:00000000 HAL_ADC_PollForEvent
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:485    .text.HAL_ADC_GetValue:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:491    .text.HAL_ADC_GetValue:00000000 HAL_ADC_GetValue
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:512    .text.HAL_ADC_ConvCpltCallback:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:518    .text.HAL_ADC_ConvCpltCallback:00000000 HAL_ADC_ConvCpltCallback
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:533    .text.ADC_DMAConvCplt:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:539    .text.ADC_DMAConvCplt:00000000 ADC_DMAConvCplt
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:621    .text.HAL_ADC_ConvHalfCpltCallback:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:627    .text.HAL_ADC_ConvHalfCpltCallback:00000000 HAL_ADC_ConvHalfCpltCallback
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:642    .text.ADC_DMAHalfConvCplt:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:648    .text.ADC_DMAHalfConvCplt:00000000 ADC_DMAHalfConvCplt
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:674    .text.HAL_ADC_LevelOutOfWindowCallback:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:680    .text.HAL_ADC_LevelOutOfWindowCallback:00000000 HAL_ADC_LevelOutOfWindowCallback
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:695    .text.HAL_ADC_IRQHandler:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:701    .text.HAL_ADC_IRQHandler:00000000 HAL_ADC_IRQHandler
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:898    .text.HAL_ADC_ErrorCallback:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:904    .text.HAL_ADC_ErrorCallback:00000000 HAL_ADC_ErrorCallback
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:919    .text.ADC_DMAError:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:925    .text.ADC_DMAError:00000000 ADC_DMAError
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:958    .text.HAL_ADC_ConfigChannel:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:964    .text.HAL_ADC_ConfigChannel:00000000 HAL_ADC_ConfigChannel
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1206   .text.HAL_ADC_ConfigChannel:00000134 $d
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1213   .text.HAL_ADC_AnalogWDGConfig:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1219   .text.HAL_ADC_AnalogWDGConfig:00000000 HAL_ADC_AnalogWDGConfig
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1320   .text.HAL_ADC_AnalogWDGConfig:0000005c $d
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1325   .text.HAL_ADC_GetState:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1331   .text.HAL_ADC_GetState:00000000 HAL_ADC_GetState
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1349   .text.HAL_ADC_GetError:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1355   .text.HAL_ADC_GetError:00000000 HAL_ADC_GetError
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1373   .text.ADC_Enable:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1379   .text.ADC_Enable:00000000 ADC_Enable
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1502   .text.ADC_Enable:00000080 $d
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1508   .text.HAL_ADC_Start:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1514   .text.HAL_ADC_Start:00000000 HAL_ADC_Start
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1635   .text.HAL_ADC_Start_IT:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1641   .text.HAL_ADC_Start_IT:00000000 HAL_ADC_Start_IT
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1767   .text.HAL_ADC_Start_DMA:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1773   .text.HAL_ADC_Start_DMA:00000000 HAL_ADC_Start_DMA
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1940   .text.HAL_ADC_Start_DMA:000000cc $d
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1947   .text.ADC_ConversionStop_Disable:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:1953   .text.ADC_ConversionStop_Disable:00000000 ADC_ConversionStop_Disable
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2042   .text.HAL_ADC_Init:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2048   .text.HAL_ADC_Init:00000000 HAL_ADC_Init
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2284   .text.HAL_ADC_Init:00000100 $d
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2290   .text.HAL_ADC_DeInit:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2296   .text.HAL_ADC_DeInit:00000000 HAL_ADC_DeInit
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2452   .text.HAL_ADC_DeInit:000000dc $d
-ARM GAS  C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s 			page 103
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:19     .text.HAL_ADC_MspInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:25     .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:40     .text.HAL_ADC_MspDeInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:46     .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:61     .text.HAL_ADC_PollForConversion:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:67     .text.HAL_ADC_PollForConversion:00000000 HAL_ADC_PollForConversion
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:374    .text.HAL_ADC_PollForConversion:00000170 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:383    .text.HAL_ADC_PollForEvent:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:389    .text.HAL_ADC_PollForEvent:00000000 HAL_ADC_PollForEvent
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:485    .text.HAL_ADC_GetValue:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:491    .text.HAL_ADC_GetValue:00000000 HAL_ADC_GetValue
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:512    .text.HAL_ADC_ConvCpltCallback:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:518    .text.HAL_ADC_ConvCpltCallback:00000000 HAL_ADC_ConvCpltCallback
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:533    .text.ADC_DMAConvCplt:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:539    .text.ADC_DMAConvCplt:00000000 ADC_DMAConvCplt
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:621    .text.HAL_ADC_ConvHalfCpltCallback:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:627    .text.HAL_ADC_ConvHalfCpltCallback:00000000 HAL_ADC_ConvHalfCpltCallback
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:642    .text.ADC_DMAHalfConvCplt:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:648    .text.ADC_DMAHalfConvCplt:00000000 ADC_DMAHalfConvCplt
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:674    .text.HAL_ADC_LevelOutOfWindowCallback:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:680    .text.HAL_ADC_LevelOutOfWindowCallback:00000000 HAL_ADC_LevelOutOfWindowCallback
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:695    .text.HAL_ADC_IRQHandler:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:701    .text.HAL_ADC_IRQHandler:00000000 HAL_ADC_IRQHandler
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:898    .text.HAL_ADC_ErrorCallback:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:904    .text.HAL_ADC_ErrorCallback:00000000 HAL_ADC_ErrorCallback
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:919    .text.ADC_DMAError:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:925    .text.ADC_DMAError:00000000 ADC_DMAError
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:958    .text.HAL_ADC_ConfigChannel:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:964    .text.HAL_ADC_ConfigChannel:00000000 HAL_ADC_ConfigChannel
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1206   .text.HAL_ADC_ConfigChannel:00000134 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1213   .text.HAL_ADC_AnalogWDGConfig:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1219   .text.HAL_ADC_AnalogWDGConfig:00000000 HAL_ADC_AnalogWDGConfig
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1320   .text.HAL_ADC_AnalogWDGConfig:0000005c $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1325   .text.HAL_ADC_GetState:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1331   .text.HAL_ADC_GetState:00000000 HAL_ADC_GetState
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1349   .text.HAL_ADC_GetError:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1355   .text.HAL_ADC_GetError:00000000 HAL_ADC_GetError
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1373   .text.ADC_Enable:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1379   .text.ADC_Enable:00000000 ADC_Enable
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1502   .text.ADC_Enable:00000080 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1508   .text.HAL_ADC_Start:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1514   .text.HAL_ADC_Start:00000000 HAL_ADC_Start
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1635   .text.HAL_ADC_Start_IT:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1641   .text.HAL_ADC_Start_IT:00000000 HAL_ADC_Start_IT
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1767   .text.HAL_ADC_Start_DMA:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1773   .text.HAL_ADC_Start_DMA:00000000 HAL_ADC_Start_DMA
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1940   .text.HAL_ADC_Start_DMA:000000cc $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1947   .text.ADC_ConversionStop_Disable:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:1953   .text.ADC_ConversionStop_Disable:00000000 ADC_ConversionStop_Disable
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2042   .text.HAL_ADC_Init:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2048   .text.HAL_ADC_Init:00000000 HAL_ADC_Init
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2284   .text.HAL_ADC_Init:00000100 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2290   .text.HAL_ADC_DeInit:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2296   .text.HAL_ADC_DeInit:00000000 HAL_ADC_DeInit
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2452   .text.HAL_ADC_DeInit:000000dc $d
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s 			page 103
 
 
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2458   .text.HAL_ADC_Stop:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2464   .text.HAL_ADC_Stop:00000000 HAL_ADC_Stop
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2524   .text.HAL_ADC_Stop_IT:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2530   .text.HAL_ADC_Stop_IT:00000000 HAL_ADC_Stop_IT
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2595   .text.HAL_ADC_Stop_DMA:00000000 $t
-C:\Users\kroko\AppData\Local\Temp\ccyedu9w.s:2601   .text.HAL_ADC_Stop_DMA:00000000 HAL_ADC_Stop_DMA
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2458   .text.HAL_ADC_Stop:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2464   .text.HAL_ADC_Stop:00000000 HAL_ADC_Stop
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2524   .text.HAL_ADC_Stop_IT:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2530   .text.HAL_ADC_Stop_IT:00000000 HAL_ADC_Stop_IT
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2595   .text.HAL_ADC_Stop_DMA:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccs2pVYe.s:2601   .text.HAL_ADC_Stop_DMA:00000000 HAL_ADC_Stop_DMA
 
 UNDEFINED SYMBOLS
 HAL_GetTick

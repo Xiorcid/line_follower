@@ -1,0 +1,199 @@
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.arch armv7-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"motor.c"
+  14              		.text
+  15              		.section	.text.M_Init,"ax",%progbits
+  16              		.align	1
+  17              		.global	M_Init
+  18              		.syntax unified
+  19              		.thumb
+  20              		.thumb_func
+  22              	M_Init:
+  23              		@ args = 0, pretend = 0, frame = 0
+  24              		@ frame_needed = 0, uses_anonymous_args = 0
+  25 0000 10B5     		push	{r4, lr}
+  26 0002 184C     		ldr	r4, .L3
+  27 0004 0122     		movs	r2, #1
+  28 0006 1021     		movs	r1, #16
+  29 0008 2046     		mov	r0, r4
+  30 000a FFF7FEFF 		bl	HAL_GPIO_WritePin
+  31 000e 0120     		movs	r0, #1
+  32 0010 FFF7FEFF 		bl	HAL_Delay
+  33 0014 0022     		movs	r2, #0
+  34 0016 1021     		movs	r1, #16
+  35 0018 2046     		mov	r0, r4
+  36 001a FFF7FEFF 		bl	HAL_GPIO_WritePin
+  37 001e 0120     		movs	r0, #1
+  38 0020 FFF7FEFF 		bl	HAL_Delay
+  39 0024 0122     		movs	r2, #1
+  40 0026 1021     		movs	r1, #16
+  41 0028 2046     		mov	r0, r4
+  42 002a FFF7FEFF 		bl	HAL_GPIO_WritePin
+  43 002e 0E4C     		ldr	r4, .L3+4
+  44 0030 0021     		movs	r1, #0
+  45 0032 2046     		mov	r0, r4
+  46 0034 FFF7FEFF 		bl	HAL_TIM_PWM_Start
+  47 0038 0421     		movs	r1, #4
+  48 003a 2046     		mov	r0, r4
+  49 003c FFF7FEFF 		bl	HAL_TIM_PWM_Start
+  50 0040 0A4C     		ldr	r4, .L3+8
+  51 0042 0021     		movs	r1, #0
+  52 0044 2046     		mov	r0, r4
+  53 0046 FFF7FEFF 		bl	HAL_TIM_PWM_Start
+  54 004a 0421     		movs	r1, #4
+  55 004c 2046     		mov	r0, r4
+  56 004e FFF7FEFF 		bl	HAL_TIM_PWM_Start
+  57 0052 074A     		ldr	r2, .L3+12
+  58 0054 0023     		movs	r3, #0
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s 			page 2
+
+
+  59 0056 5363     		str	r3, [r2, #52]
+  60 0058 9363     		str	r3, [r2, #56]
+  61 005a 4FF08042 		mov	r2, #1073741824
+  62 005e 5363     		str	r3, [r2, #52]
+  63 0060 9363     		str	r3, [r2, #56]
+  64 0062 10BD     		pop	{r4, pc}
+  65              	.L4:
+  66              		.align	2
+  67              	.L3:
+  68 0064 000C0140 		.word	1073810432
+  69 0068 00000000 		.word	htim1
+  70 006c 00000000 		.word	htim2
+  71 0070 002C0140 		.word	1073818624
+  73              		.section	.text.M_Disable,"ax",%progbits
+  74              		.align	1
+  75              		.global	M_Disable
+  76              		.syntax unified
+  77              		.thumb
+  78              		.thumb_func
+  80              	M_Disable:
+  81              		@ args = 0, pretend = 0, frame = 0
+  82              		@ frame_needed = 0, uses_anonymous_args = 0
+  83 0000 08B5     		push	{r3, lr}
+  84 0002 0022     		movs	r2, #0
+  85 0004 1021     		movs	r1, #16
+  86 0006 0248     		ldr	r0, .L7
+  87 0008 FFF7FEFF 		bl	HAL_GPIO_WritePin
+  88 000c 08BD     		pop	{r3, pc}
+  89              	.L8:
+  90 000e 00BF     		.align	2
+  91              	.L7:
+  92 0010 000C0140 		.word	1073810432
+  94              		.section	.text.M_Enable,"ax",%progbits
+  95              		.align	1
+  96              		.global	M_Enable
+  97              		.syntax unified
+  98              		.thumb
+  99              		.thumb_func
+ 101              	M_Enable:
+ 102              		@ args = 0, pretend = 0, frame = 0
+ 103              		@ frame_needed = 0, uses_anonymous_args = 0
+ 104 0000 08B5     		push	{r3, lr}
+ 105 0002 0122     		movs	r2, #1
+ 106 0004 1021     		movs	r1, #16
+ 107 0006 0248     		ldr	r0, .L11
+ 108 0008 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 109 000c 08BD     		pop	{r3, pc}
+ 110              	.L12:
+ 111 000e 00BF     		.align	2
+ 112              	.L11:
+ 113 0010 000C0140 		.word	1073810432
+ 115              		.section	.text.M_SetSpeed,"ax",%progbits
+ 116              		.align	1
+ 117              		.global	M_SetSpeed
+ 118              		.syntax unified
+ 119              		.thumb
+ 120              		.thumb_func
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s 			page 3
+
+
+ 122              	M_SetSpeed:
+ 123              		@ args = 0, pretend = 0, frame = 0
+ 124              		@ frame_needed = 0, uses_anonymous_args = 0
+ 125              		@ link register save eliminated.
+ 126 0000 70B4     		push	{r4, r5, r6}
+ 127 0002 40F21F34 		movw	r4, #799
+ 128 0006 261A     		subs	r6, r4, r0
+ 129 0008 154D     		ldr	r5, .L21
+ 130 000a 6E63     		str	r6, [r5, #52]
+ 131 000c AE63     		str	r6, [r5, #56]
+ 132 000e 641A     		subs	r4, r4, r1
+ 133 0010 4FF0804C 		mov	ip, #1073741824
+ 134 0014 CCF83440 		str	r4, [ip, #52]
+ 135 0018 CCF83840 		str	r4, [ip, #56]
+ 136 001c AAB9     		cbnz	r2, .L14
+ 137 001e 40F21F34 		movw	r4, #799
+ 138 0022 6C63     		str	r4, [r5, #52]
+ 139              	.L15:
+ 140 0024 B3B9     		cbnz	r3, .L16
+ 141 0026 4FF08043 		mov	r3, #1073741824
+ 142 002a 40F21F32 		movw	r2, #799
+ 143 002e 5A63     		str	r2, [r3, #52]
+ 144              	.L17:
+ 145 0030 18B9     		cbnz	r0, .L18
+ 146 0032 0B4B     		ldr	r3, .L21
+ 147 0034 0022     		movs	r2, #0
+ 148 0036 5A63     		str	r2, [r3, #52]
+ 149 0038 9A63     		str	r2, [r3, #56]
+ 150              	.L18:
+ 151 003a 21B9     		cbnz	r1, .L13
+ 152 003c 4FF08043 		mov	r3, #1073741824
+ 153 0040 0022     		movs	r2, #0
+ 154 0042 5A63     		str	r2, [r3, #52]
+ 155 0044 9A63     		str	r2, [r3, #56]
+ 156              	.L13:
+ 157 0046 70BC     		pop	{r4, r5, r6}
+ 158 0048 7047     		bx	lr
+ 159              	.L14:
+ 160 004a 054A     		ldr	r2, .L21
+ 161 004c 40F21F34 		movw	r4, #799
+ 162 0050 9463     		str	r4, [r2, #56]
+ 163 0052 E7E7     		b	.L15
+ 164              	.L16:
+ 165 0054 4FF08043 		mov	r3, #1073741824
+ 166 0058 40F21F32 		movw	r2, #799
+ 167 005c 9A63     		str	r2, [r3, #56]
+ 168 005e E7E7     		b	.L17
+ 169              	.L22:
+ 170              		.align	2
+ 171              	.L21:
+ 172 0060 002C0140 		.word	1073818624
+ 174              		.ident	"GCC: (xPack GNU Arm Embedded GCC x86_64) 13.3.1 20240614"
+ARM GAS  /var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 motor.c
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:16     .text.M_Init:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:22     .text.M_Init:00000000 M_Init
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:68     .text.M_Init:00000064 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:74     .text.M_Disable:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:80     .text.M_Disable:00000000 M_Disable
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:92     .text.M_Disable:00000010 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:95     .text.M_Enable:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:101    .text.M_Enable:00000000 M_Enable
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:113    .text.M_Enable:00000010 $d
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:116    .text.M_SetSpeed:00000000 $t
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:122    .text.M_SetSpeed:00000000 M_SetSpeed
+/var/folders/t4/6192qx0n3zgdnvcwt906k_mw0000gn/T//ccOtmjVt.s:172    .text.M_SetSpeed:00000060 $d
+
+UNDEFINED SYMBOLS
+HAL_GPIO_WritePin
+HAL_Delay
+HAL_TIM_PWM_Start
+htim1
+htim2
